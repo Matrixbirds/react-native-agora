@@ -95,5 +95,5 @@ Pod::Spec.new do |s|
   }
   s.dependency "AgoraRtcEngine_iOS", "2.3.3"
   s.dependency 'React'
-
+  s.vendored_frameworks = "AgoraRtcEngineKit.framework"
 end
